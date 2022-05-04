@@ -9,8 +9,8 @@
 //! https://www.boost.org/doc/libs/1_79_0/libs/icl/doc/html/index.html#boost_icl.introduction.definition_and_basic_example
 template<class T>
 class ranges_t {
-    boost::icl::interval_set<T> _ranges;
     public:
+    boost::icl::interval_set<T> _ranges;
 
     typedef typename decltype(_ranges)::interval_type interval_type;
 
